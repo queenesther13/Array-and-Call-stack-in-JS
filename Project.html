@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project on array in JS</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="demo3"></p>
+        <script>
+            var students={name:"Anjola",grade:12,school:"OSCCO",fav_color:"purple"};
+            document.getElementById("demo").innerHTML =students.grade;
+            var fav_kpop=["BTS","Blackpink","Straykids","Exo"];
+            document.getElementById("demo1").innerHTML=fav_kpop[1];
+            document.getElementById("demo2").innerHTML=fav_kpop.join("💜");
+            document.getElementById("demo3").innerHTML=fav_kpop.pop();
+        </script>
+    </body>
+</html>
